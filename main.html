@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Task Board</title>
+	<link rel="stylesheet" type="text/css" href="Style/main-style.css">
+	<link rel="stylesheet" type="text/css" href="Style/note-style.css">
+</head>
+<body>
+	<main>
+		<h1>
+			<img src="Creatives/title.png" alt="header-image">
+		</h1>
+		<form>
+			<fieldset>
+				<label id="textarea-label">
+					<span>Write your task here:</span>
+					<textarea rows="4" cols="80" name="task-content" required>
+
+					</textarea>
+				</label>
+			</fieldset>
+			<fieldset id="date-and-time">
+				<label>
+					<span>
+						Due date:
+					</span>
+					<input type="date" name="due-date" required>
+				</label>
+				<label>
+					<span>
+						Due hour:
+					</span>
+					<input type="time" name="due-time">
+				</label>
+				<label id="submit">
+					<input id="submit-btn" type="submit" value="Click here to add task">
+				</label>
+			</fieldset>
+		</form>
+		<div class="notes-container">
+			</div>
+		</div>
+	</main>
+	<script type="text/javascript" src="Script/script.js"></script>
+</body>
+</html>

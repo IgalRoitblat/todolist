@@ -1,0 +1,115 @@
+body {
+	display: flex;
+	justify-content: center;
+	font-family: Arial, Helvetica, Sans-serif;
+	
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-image: url(../Creatives/tile.jpg);
+	background-repeat: repeat;
+	width: 80%;
+	padding: 2rem;
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: white;
+}
+
+fieldset {
+	border: none;
+}
+
+
+#textarea-label {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	justify-content: center;
+	border: none;
+}
+
+#textarea-label > span {
+	width: 75%;
+}
+
+textarea {
+	/* background-image: -webkit-linear-gradient(left, white 10px, transparent 10px), -webkit-linear-gradient(right, white 10px, transparent 10px), -webkit-linear-gradient(white 30px, #0000ff 30px, #ccc 31px, white 31px); */
+	background-image: url(../Creatives/formbg.jpg);
+	/* background-size: 100% 100%, 100% 100%, 100% 31px; */
+	background-repeat: repeat-y;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	line-height: 31px;
+	padding: 10px;
+	padding-left: 5rem;
+	resize: none;
+}
+
+
+#date-and-time {
+	display: flex;
+}
+
+#date-and-time > input {
+	width: 3rem;
+}
+
+#date-and-time > label {
+	width: 50%;
+}
+
+#submit {
+	margin-top: 1rem;
+}
+
+.error {
+	color: red;
+	background-color: white;
+	padding: .5rem;
+	margin-top: .5rem;
+	border: 1px solid red;
+}
+
+#submit-btn {
+	border: none;
+	height: 3rem;
+}
+
+
+@media screen and (max-width: 700px) {
+	textarea {
+		width: 80%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
